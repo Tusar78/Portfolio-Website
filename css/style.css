@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
+
+#baner {
+  background-image: url(../images/top-banner.png);
+  background-repeat: no-repeat; }
+
+#bg-mage {
+  background-image: url(../images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right; }
+
+#service-bg {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left; }
+
+.section {
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px; }
+  .section .section__half-width {
+    width: 48%; }
+    .section .section__half-width h2 {
+      font-size: 32px;
+      color: #111;
+      margin-bottom: 20px; }
+    .section .section__half-width p {
+      font-size: 16px;
+      color: #444;
+      margin-bottom: 20px; }
+    .section .section__half-width button {
+      display: inline-block;
+      padding: 10px 25px;
+      background-image: linear-gradient(45deg, hotpink, orange);
+      color: #fff;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none; }
+    .section .section__half-width img {
+      max-width: 450px; }
+  .section .section__single-service {
+    width: 48%;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+    padding: 25px 15px;
+    background-color: #fff;
+    border-left: 3px solid;
+    border-image: linear-gradient(180deg, purple, seagreen);
+    border-image-slice: 1;
+    border-radius: 5px; }
+    .section .section__single-service h2 {
+      font-size: 26px;
+      color: #111;
+      margin-bottom: 20px;
+      font-weight: normal; }
+    .section .section__single-service p {
+      font-size: 16px;
+      color: #444;
+      margin-bottom: 20px; }
+    .section .section__single-service button {
+      display: inline-block;
+      padding: 10px 25px;
+      background-image: linear-gradient(45deg, hotpink, orange);
+      color: #fff;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none; }
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  color: #111; }
+
+/*# sourceMappingURL=style.css.map */
